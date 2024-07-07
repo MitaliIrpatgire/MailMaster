@@ -26,7 +26,7 @@ from fpdf import FPDF  # Import fpdf for PDF generation
 
 # Generate a synthetic dataset and save it as 'attendees.xlsx'
 data = {
-    'Email': ['alice.johnson@example.com', 'bob.smith@example.com', 'mitaliirpatgire123@gmail.com'],
+    'Email': ['alice.johnson@example.com', 'bob.smith@example.com', 'xyz@gmail.com'],
     'Name': ['Alice Johnson', 'Bob Smith', 'Mitali'],
     'EventDate': ['2024-08-15', '2024-08-16', '2024-08-17'],
     'Attachment': ['certificate1.pdf', 'certificate2.pdf', '']  # Add empty string if no attachment
@@ -51,9 +51,9 @@ for email, name, attachment in zip(data['Email'], data['Name'], data['Attachment
 
 
 # Email configuration
-sender_email = "mitaliairpatgire@gmail.com"  # Replace with your Gmail email
+sender_email = "yourname@gmail.com"  # Replace with your Gmail email
 sender_name = "Mitali Irpatgire"  # Replace with your name
-password = "xica bpnx tdpr rfoo"  # Replace with your App Password for Gmail
+password = "   "  # Replace with your App Password for Gmail
 
 # Set up the SMTP server
 server = smtplib.SMTP('smtp.gmail.com', 587)
